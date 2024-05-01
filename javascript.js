@@ -1,9 +1,9 @@
 const name = prompt('Name: ');
 
-if (name.indexOf(' ') !== -1 && name.trim().length > 7) {
+if (name.indexOf(' ') !== -1 && name.trim().length > 10) {
     alert('Access denied');
 } else {
-    if (name.length < 10) {
+    if (name.length < 7) {
         const age = +prompt('Age: ');
 
         if (age > 18) {
